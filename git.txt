@@ -1,0 +1,10 @@
+https://github.com/deepa-mani-aspire/Framwork.git
+
+https://github.com/shyamaladevi91/ShyamalaLearning.git
+
+Pull the request in which branch conflict occurs
+
+
+resolve conflicts 
+
+Commit and merge the code 

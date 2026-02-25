@@ -1,0 +1,7 @@
+[
+  {
+    "scenario": "Login with valid credentials",
+    "username": "admin",
+    "password": "admin123"
+  
+  }]

@@ -1,0 +1,20 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+"test:ui": "NODE_OPTIONS='--no-experimental-strip-types' playwright test",
+  "start": "NODE_OPTIONS='--experimental-transform-types' node your-entry-file.ts"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^25.0.3"
+  }
+  
+}
