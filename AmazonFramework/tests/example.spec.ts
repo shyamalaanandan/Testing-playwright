@@ -17,8 +17,9 @@ test(s.scenario2, async ({ loginPage,browserAc }) => {
  await loginPage.alertBox();
  const title1= await browserAc.getTittle();
  console.log(title1);
- //await browserAc.verifyUrl(/inventory/);
- //await browserAc.verifyTitle(/Swag Labs/);
+ await browserAc.verifyUrl(/inventory/);
+ await browserAc.verifyTitle(/Swag Labs/);
+ console.log("test")
 });
 
 
